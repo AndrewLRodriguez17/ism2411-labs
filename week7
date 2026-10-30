@@ -1,1 +1,43 @@
+sales = [120,80,250,175,90,410,60,215]
+total = 0
+for sale in sales:
+    total += sale
+print(f"Total: ${total}")
 
+total = 0
+count = 0
+for sale in sales:
+    total += sale
+    count += 1
+
+average = total / count
+print(f"Total: ${total}")
+print(f"Count: {count}")
+print(f"Average: ${average:.2f}")
+
+current_max = 0
+for sale in sales:
+    if sale > current_max:
+        current_max = sale
+print(f"Largest sale: ${current_max}")
+
+count_over_100 = 0
+total_over_100 = 0
+for sale in sales:
+    if sale > 100:
+        count_over_100 += 1
+        total_over_100 += sale
+print(f"Sales over $100: {count_over_100}")
+print(f"Total of those sales: ${total_over_100}")
+
+for sale in sales:
+    if sale > 400:
+        print(f"Alert: outlier found - ${sale}. Stopping.")
+        break
+    if sale <= 100:
+        continue
+    print(f"${sale}")
+
+total = 0
+i = 0
+while i < len(sales):
