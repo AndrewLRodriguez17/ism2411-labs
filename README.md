@@ -24,3 +24,10 @@ Each script is standalone. Open a terminal and run:
 ```
 python week07/functions.py
 ```
+
+
+# REFLECTION
+Lab 8
+1. It was acting weird for me and didn't do it exactly how you showed us how to do it so I apologize, I could really use some help if I can get some
+2. Git would make it easier for us to just make a profile for ourselves with coding and what we have done. It also just keeps it nice and clean and organized so that our work isn't clustered and all over the place.
+3. I would also add any school files since I would want those to be clear from the tracking so that none of them get messed up as well
