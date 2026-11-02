@@ -2,6 +2,11 @@
 # Author: Andrew Rodriguez
 # Module 10 lab: Inventory list manager
 
+# REFlECTION QUESTIONS
+1. The most surprising thing about lists in Python is how easy and how organized it really is in coding. I thought it would be more complex and annoying
+2. Any math problem from class like calculas that I didn't understand and needed a spreadsheet and multiple solutions
+
+
 # Exercise 1: build a list
 
 print("--- Exercise 1: Build a List ---")
