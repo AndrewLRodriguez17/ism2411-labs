@@ -86,4 +86,4 @@ for amount in sales:
 
 print(high_sales)
 print(f"Count: {len(high_sales)}")
-print(f"Average: {sum(high_sales) / len(high_sales)}")
+print(f"Average: {sum(high_sales) / len(high_sales)}") 
